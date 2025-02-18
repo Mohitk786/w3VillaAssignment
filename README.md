@@ -40,6 +40,11 @@ This is a Task Management System built using the MERN stack (MongoDB, Express, R
    npm install  # This installs dependencies for both server and frontend
    npm run start
 
+2. Runnning Server
+  ```bash
+     cd server
+     npm run dev 
+
 
 Open your browser and navigate to http://localhost:3000 to access the application.
 
@@ -56,18 +61,18 @@ Use the search bar to find specific task
 Here are some of the key API endpoints used in the application:
 
 ## User Authentication:
-SIGNUP_API: BASE_URL + "/auth/signup",
-LOGIN_API: BASE_URL + "/auth/login",
+- SIGNUP_API: BASE_URL + "/auth/signup",
+- LOGIN_API: BASE_URL + "/auth/login",
 
 ## Task Management: 
-FETCH_TASK_LIST: BASE_URL+"/taskLists",
-ADD_TASK_LIST: BASE_URL+"/addTaskList/id",
-DELETE_LIST: BASE_URL+"/deleteList/id",
-GET_ALL_LISTS:BASE_URL+"/all-tasks",
+- FETCH_TASK_LIST: BASE_URL+"/taskLists",
+- ADD_TASK_LIST: BASE_URL+"/addTaskList/id",
+- DELETE_LIST: BASE_URL+"/deleteList/id",
+- GET_ALL_LISTS:BASE_URL+"/all-tasks",
 
-ADD_TASK: BASE_URL+'/add-task',
-DELETE_TASK: BASE_URL+'/task/delete/id',
-UPDATE_TASK: 'ASE_URL+'/task/update/id',
-GET_ASSIGNED_'ASKS:BASE_URL+'/tasks/a'signedTasks`''
+- ADD_TASK: BASE_URL+'/add-task',
+- DELETE_TASK: BASE_URL+'/task/delete/id',
+- UPDATE_TASK: 'ASE_URL+'/task/update/id',
+- GET_ASSIGNED_'ASKS:BASE_URL+'/tasks/a'signedTasks`''
 
 
